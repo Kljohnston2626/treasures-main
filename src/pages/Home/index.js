@@ -1,15 +1,22 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import './styles.scss';
 
-const Home = props => {
-    return (
-        <div className="main">
-            <div className="test">
-                <h1>test</h1>
+class Home extends Component {
+    render () {
+        return (
+            <div className="main">
+                <div className="wrap">
+                    <div className="container">
+                        words
+                    </div>
+                </div>
+                <div>
+                    test
+                </div>
             </div>
-        </div>
-    );
+        );
+    }
 };
 
 export default Home;

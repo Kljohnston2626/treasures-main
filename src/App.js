@@ -2,6 +2,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 import Header from './components/Header';
+import Notification from './components/Notification';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -11,6 +12,7 @@ import './default.scss';
 function App() {
   return (
     <div className="App">
+      <Notification />
       <Header />
       <div className="main">
         <Switch>
