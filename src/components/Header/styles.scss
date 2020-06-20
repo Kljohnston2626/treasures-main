@@ -9,6 +9,7 @@
         height: 100%;
         max-width: 100%;
         margin: 0 auto;
+        z-index: 1;
 
         .clusterLeft {
             width: 30rem;
@@ -88,7 +89,7 @@ body { overflow-x: hidden; } /* trick from css-tricks comments */
     display: inline; 
     position: relative; 
     padding: 0 0 3.6rem 0;
-    z-index: 100;
+    z-index: 1;
     margin-right: 2rem;
 }
 
@@ -100,7 +101,7 @@ body { overflow-x: hidden; } /* trick from css-tricks comments */
     top: 100%;
     padding: 0 1000em; /* trick from css-tricks comments */
     margin: 0 -1000em; /* trick from css-tricks comments */
-    z-index: 101;
+    z-index: 2;
     visibility: hidden;
     opacity: 0;
     background: rgba(85, 85, 85, 0.8);
