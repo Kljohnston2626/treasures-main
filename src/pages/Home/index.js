@@ -1,13 +1,16 @@
 import React, { Component } from "react";
 
+import Featured from './../../firebase/featured';
 import "./styles.scss";
 import owl from "./../../assets/owl.jpg";
+import present from "./../../assets/present.jpg";
 
 class Home extends Component {
   render() {
     return (
       <div className="homepage">
         <div className="wrap">
+          <img src={present} alt="present"></img>
           <div className="container">
             <h1>Think Local</h1>
             <div className="desc">
@@ -19,6 +22,7 @@ class Home extends Component {
           </div>
         </div>
         <div className="featured">
+          <Featured />
           <div className="title">Featured Products</div>
           <div className="products">
             <div className="productRow">

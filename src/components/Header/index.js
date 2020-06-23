@@ -14,7 +14,7 @@ const Header = (props) => {
             </a>
             <li>
               <a href="/products">
-                <i className="fas fa-angle-down"></i> Products
+                Products <i className="fas fa-angle-down"></i>
               </a>
               <ul className="productsList">
                 <li>
@@ -51,14 +51,14 @@ const Header = (props) => {
             </li>
             <li>
               <a href="/products">
-                <i className="fas fa-angle-down"></i> Brands
+                Brands <i className="fas fa-angle-down"></i>
               </a>
               <ul className="brandsList">
                 <li>
                   <a href="#">Nora Flemming</a>
                 </li>
                 <li>
-                  <a href="#">Glory House</a>
+                  <a href="#">Glory Haus</a>
                 </li>
                 <li>
                   <a href="#">Scout</a>

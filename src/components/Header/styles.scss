@@ -10,6 +10,7 @@
         max-width: 100%;
         margin: 0 auto;
         z-index: 1;
+        background-color: #ffffff;
 
         .clusterLeft {
             width: 30rem;
@@ -107,7 +108,7 @@ body { overflow-x: hidden; } /* trick from css-tricks comments */
     background: rgba(85, 85, 85, 0.8);
     width: 160rem;
     height: 7.0rem;
-    box-shadow: 0px 5px 5px 0px #7a7a7a;
+    box-shadow: 0px 5px 10px 0px #7a7a7a;
 
     :last-of-type {
         border-right: solid 1px #c7c7c7;

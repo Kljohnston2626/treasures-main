@@ -12,8 +12,10 @@ import './default.scss';
 function App() {
   return (
     <div className="App">
-      <Notification />
-      <Header />
+      <div className="top">
+        <Notification />
+        <Header />
+      </div>
       <div className="main">
         <Switch>
           <Route exact={true} path="/" component={Home} />
