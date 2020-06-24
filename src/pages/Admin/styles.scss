@@ -1,0 +1,41 @@
+.login {
+  width: 100%;
+  margin-top: 13rem;
+
+  .loginForm {
+    width: 60rem;
+    height: 35rem;
+    position: absolute;
+    left: 50%;
+    margin-left: -30rem;
+    margin-top: 10%;
+    border: 1px solid #c7c7c7;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px 0px #7a7a7a;
+    text-align: center;
+
+    h1 {
+      font-size: 8rem;
+      margin: 1rem;
+    }
+
+    input,
+    button {
+      padding: 1rem;
+      width: 45rem;
+      font-size: 2rem;
+      margin-top: 1rem;
+    }
+
+    button {
+      width: 47.4rem;
+      background: #00519a;
+      border: 2px solid #00519a;
+      color: white;
+    }
+
+    button:hover {
+      box-shadow: 0px 5px 10px 0px #7a7a7a;
+    }
+  }
+}

@@ -6,11 +6,10 @@
 
   .wrap {
     width: 100%;
-    
+
     img {
       width: 100%;
       position: relative;
-      
     }
 
     .container {
@@ -36,7 +35,7 @@
       .desc {
         font-family: "Raleway", sans-serif;
         font-weight: normal;
-        font-size: 1.5vw;
+        font-size: 1.6vw;
         width: 100%;
         margin-top: -2rem;
       }
@@ -52,23 +51,23 @@
           color: white;
           padding: 1.5vw;
           font-family: "Raleway", sans-serif;
-          font-size: 1vw;
+          font-size: 1.3vw;
           width: 5vw;
           text-decoration: none;
-          font-weight: bold;
+          font-weight: 400 !important;
           border-radius: 0.5rem;
         }
 
         a:hover {
           border-color: white;
-          box-shadow: 5px 5px 10px 0px #7a7a7a;
+          box-shadow: 0px 5px 10px 0px #7a7a7a;
         }
       }
     }
   }
 
   .featured {
-    width: 90%;
+    width: 80%;
     margin: 5rem auto;
     padding: 0;
 
@@ -77,7 +76,7 @@
       height: 8rem;
       font-family: "Raleway", sans-serif;
       font-weight: normal;
-      font-size: 4rem;
+      font-size: 3.5rem;
       text-align: center;
       border-bottom: 1px solid #c7c7c7;
     }
@@ -88,13 +87,14 @@
       .productRow {
         width: 100%;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         margin-top: 3rem;
 
         a {
           color: black;
           text-decoration: none;
-          font-size: 1vw;
+          font-size: 1.1vw;
           width: 20%;
         }
 

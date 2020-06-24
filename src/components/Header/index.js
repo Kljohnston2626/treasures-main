@@ -21,31 +21,31 @@ const Header = (props) => {
                   <a href="/products/home-decor">Home Decor</a>
                 </li>
                 <li>
-                  <a href="#">Wall Decor</a>
+                  <a href="/">Wall Decor</a>
                 </li>
                 <li>
-                  <a href="#">Gifts for Her</a>
+                  <a href="/">Gifts for Her</a>
                 </li>
                 <li>
-                  <a href="#">Hostess Gifts</a>
+                  <a href="/">Hostess Gifts</a>
                 </li>
                 <li>
-                  <a href="#">Baby</a>
+                  <a href="/">Baby</a>
                 </li>
                 <li>
-                  <a href="#">Wedding</a>
+                  <a href="/">Wedding</a>
                 </li>
                 <li>
-                  <a href="#">Jewelry</a>
+                  <a href="/">Jewelry</a>
                 </li>
                 <li>
-                  <a href="#">Bath and Beauty</a>
+                  <a href="/">Bath and Beauty</a>
                 </li>
                 <li>
-                  <a href="#">Neighborhood Collection</a>
+                  <a href="/">Neighborhood Collection</a>
                 </li>
                 <li>
-                  <a href="#">Apparel</a>
+                  <a href="/">Apparel</a>
                 </li>
               </ul>
             </li>
@@ -55,37 +55,37 @@ const Header = (props) => {
               </a>
               <ul className="brandsList">
                 <li>
-                  <a href="#">Nora Flemming</a>
+                  <a href="/">Nora Flemming</a>
                 </li>
                 <li>
-                  <a href="#">Glory Haus</a>
+                  <a href="/">Glory Haus</a>
                 </li>
                 <li>
-                  <a href="#">Scout</a>
+                  <a href="/">Scout</a>
                 </li>
                 <li>
-                  <a href="#">Peepers</a>
+                  <a href="/">Peepers</a>
                 </li>
                 <li>
-                  <a href="#">Southern Jubilee</a>
+                  <a href="/">Southern Jubilee</a>
                 </li>
                 <li>
-                  <a href="#">Pampa Bay</a>
+                  <a href="/">Pampa Bay</a>
                 </li>
                 <li>
-                  <a href="#">Lizzy James</a>
+                  <a href="/">Lizzy James</a>
                 </li>
                 <li>
-                  <a href="#">Rewined Candles</a>
+                  <a href="/">Rewined Candles</a>
                 </li>
                 <li>
-                  <a href="#">Two's Company</a>
+                  <a href="/">Two's Company</a>
                 </li>
                 <li>
-                  <a href="#">Primitives by Kathy</a>
+                  <a href="/">Primitives by Kathy</a>
                 </li>
                 <li>
-                  <a href="#">Little Birdie</a>
+                  <a href="/">Little Birdie</a>
                 </li>
               </ul>
             </li>
